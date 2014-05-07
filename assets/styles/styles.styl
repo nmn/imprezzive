@@ -1,0 +1,330 @@
+@import 'nib'
+global-reset()
+
+@css{
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+myfont = 'Helvetica Neue', Helvetica, sans-serif;
+
+tronblue = rgb(24,202,230)
+darkblue = rgb(52,96,141)
+lightgrey = rgb(216,218,231)
+darkerblue = rgb(13,12,28)
+myblack = rgb(5,13,16)
+
+html, body
+  margin 0
+  padding 0
+  background black
+  color white
+  font-family myfont
+
+h1
+  color white
+
+
+.container
+  position absolute
+  top 0rem
+  left 0rem
+  width 1280px
+  height 820px
+  background rgb(13,12,28)
+  text-align left
+  transform-origin 0 0
+  span.slideNumber
+    position absolute
+    top 650px
+    right 40px
+    font-size 2rem
+    font-family myfont
+    font-weight 100
+    color lightgrey
+
+.slide
+  border 1px solid tronblue
+  position absolute
+  top 20px
+  left 20px
+  width 1240px
+  height 680px
+  overflow hidden
+  transition 1s ease
+  &.before
+    opacity 0
+    transform translateX( -1250px )
+  &.after
+    opacity 0
+    transform translateX(1250px)
+  .item
+    position absolute
+
+.toolbar
+  position fixed
+  bottom 0
+  left 0
+  right 0
+  padding 2rem 20px
+  button
+    height 2rem
+    width 2rem
+    border 0
+    appearance none
+    border-radius 1rem
+    opacity 0.5
+    background-color transparent
+    color tronblue
+    border 1px solid tronblue
+    cursor pointer
+    transition 0.5s ease
+    outline none
+    position relative
+    img
+      max-width 60%
+      max-height 60%
+    &.addSlide, &.mic
+      margin-right 1.5rem
+    &.addText:hover
+      &::after
+        content 'Add Heading'
+    &.fullscreen:hover
+      &::after
+        content 'Go Fullscreen'
+    &.addPara:hover
+      &::after
+        content 'Add Para'
+    &.addCode
+      margin-right 2rem
+      &:hover
+        &::after
+          content 'Add Code'
+    &.addImage:hover
+      &::after
+        content 'Add Image'
+    &.next:hover
+      &::after
+        content 'Next Slide'
+    &.mic:hover
+      &::after
+        content 'Start Mic'
+    &.mic.active
+      opacity 1
+      animation-name 'pulse'
+      animation-duration 1s
+      animation-iteration-count infinite
+      &:hover
+        &::after
+          content 'Stop Mic'
+    &.prev:hover
+      &::after
+        content 'Previous'
+    &.addSlide:hover
+      &::after
+        content 'Add Slide'
+    &.prev, &.next, &.addSlide, &.mic, &.fullscreen
+      float right
+      margin-left 0.5rem
+    &:hover
+      opacity 1
+      &::after
+        position absolute
+        bottom -1rem
+        left -1rem
+        right -1rem
+        text-align center
+        display block
+        color tronblue
+        font-family myfont
+        font-weight 200
+        font-size 0.5rem
+        letter-spacing 150%
+        display block
+  input
+    font-size 0.8rem
+    height 2rem
+    width 20rem
+    border 0
+    margin 0
+    outline none
+    position relative
+    top 0.075rem
+    padding 0.2rem 0.8rem
+    background-color transparent
+    color tronblue
+    border 1px solid tronblue
+    opacity 0.5
+    border-radius 1rem
+    transition 0.5s ease
+    font-family myfont
+    font-weight 200
+    &:focus
+      opacity 1
+
+
+// items
+.item
+  position absolute
+  top 300px
+  left 300px
+  span.delete, span.dragger
+    position absolute
+    top -2.25rem
+    color tronblue
+    display block
+    visibility hidden
+    padding 0.5rem
+    font-size 1.5rem
+    opacity 0
+    transition opacity 0.5s ease, visibility 0.5s ease
+    cursor pointer
+    &:hover
+      opacity 1
+  span.delete
+    right -0.25rem
+  span.dragger
+    left -0.25rem
+  textarea
+    background transparent
+    color tronblue
+    font-size 3rem
+    border 0
+    outline none
+    font-weight 800
+    text-align center
+    &.para
+      font-size 1rem
+      font-weight 100
+      color lightgrey
+      line-height 150%
+  textarea:focus
+    box-shadow 0 1px 4px tronblue
+    & ~ span.delete
+      visibility visible
+      transition opacity 0.5s ease, visibility 0.5s ease
+      opacity 0.5
+    & ~ span.dragger
+      visibility visible
+      transition opacity 0.5s ease, visibility 0.5s ease
+      opacity 0.5
+
+.item.active, .item.alwaysActive
+  span.delete, span.dragger
+    visibility visible
+    transition opacity 0.5s ease, visibility 0.5s ease
+    opacity 0.5
+
+.item .code
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
+  transform-origin 0 0
+
+.item
+  button
+    position absolute
+    top 400px
+    height 30px
+    appearance none
+    left 0
+    width 500px
+    border 1px solid tronblue
+    outline none
+    background-color tronblue
+    color myblack
+    margin-left 0
+    font-family myfont
+    font-weight 300
+    font-size 1rem
+    cursor pointer
+  .console
+    height 170px
+    background transparent
+    border 1px solid tronblue
+    color tronblue
+    font-family "Menlo Regular", Monaco, monospace
+    position absolute
+    top 430px
+    left 0
+    width 100%
+    padding 10px
+    font-size 0.8rem
+    overflow scroll
+    line-height 150%
+
+section.half
+  background darkerblue
+  position absolute
+  left 0
+  top 0
+  height 100%
+  width 50%
+  text-align center
+  overflow auto
+  padding-top 8rem
+  &::before
+    display inline-block
+    height 100%
+    width 1px
+    vertical-align middle
+    content ''
+  .links
+    display inline-block
+    vertical-align middle
+    width 98%
+    text-align center
+    padding 4rem
+  a
+    display block
+    width 100%
+    padding 2rem
+    font-size 2rem
+    color tronblue
+    border 1px solid tronblue
+    margin 1rem 0
+    text-decoration none
+    transition 0.5s ease
+    font-weight 100
+    &:hover
+      background tronblue
+      color darkerblue
+section.half.blue
+  background tronblue
+  left 50%
+  right 0
+  a
+    border 1px solid darkerblue
+    color darkerblue
+    font-size 20rem
+    font-weight 100
+    padding-bottom 6rem
+    &:hover
+      background darkerblue
+      color tronblue
+header
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 12rem
+  text-align center
+  img
+    height 12rem

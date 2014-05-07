@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Default home page -->
+    <link type="text/css" href='/styles/styles.css' rel='stylesheet'/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/socket.io.js"></script>
+    <script type="text/javascript" src="/js/sails.io.js"></script>
+  </head>
+<body>
+
+
+<script type="text/template" id="text-template">
+  <textarea class='content' placeholder="Type Here..."></textarea>
+  <span class="delete">X</span>
+  <span class="dragger">:::</span>
+</script>
+<script type="text/template" id="para-template">
+  <textarea class="content para" placeholder="Type Here..."></textarea>
+  <span class="delete">X</span>
+  <span class="dragger">:::</span>
+</script>
+
+<script type="text/template" id="image-template">
+  <img src="http://www.businessbee.com/wp-content/uploads/24534/loading_home.gif" />
+  <span class="delete">X</span>
+  <span class="dragger">:::</span>
+</script>
+
+
+<script type="text/template" id="code-template">
+  <div class="code" id="code"></div>
+  <span class="delete">X</span>
+  <span class="dragger">:::</span>
+  <button>run code</button>
+  <div class="console"></div>
+</script>
+
+
+<script type="text/template" id="toolbar">
+  <button class="next">&gt;</button>
+  <button class="prev">&lt;</button>
+  <button class="mic"><img src="/images/mic.svg"></button>
+  <button class="addSlide">+</button>
+  <button class="fullscreen"><img src="/images/fullscreen.svg"></button>
+
+
+  <button class="addText"> H1 </button>
+  <button class="addPara"> p </button>
+  <button class="addCode"> [:} </button>
+  <input type="text" class="imageurl" placeholder="Enter Image Url">
+  <button class="addImage"> img </button>
+</script>
+
+<script type="text/template" id="worker-start">
+var window = {};
+window.alert = function(){
+  console.log.apply(console, ["Alert: "].concat(Array.prototype.slice.call(arguments)));
+};
+var alert = window.alert;
+var console = {
+  log: function(){
+    var str = "";
+    for(var i = 0; i < arguments.length; i++){
+      str += JSON.stringify(arguments[i]) + " ";
+    }
+    str += "\n";
+    self.postMessage(str);
+  },
+  error: function(){
+    console.log.apply(console, ["ERROR: "].concat(Array.prototype.slice.call(arguments)));
+  },
+  warn: function(){
+    console.log.apply(console, ["WARNING: "].concat(Array.prototype.slice.call(arguments)));
+  }
+};
+self.addEventListener('message', function(e) {
+</script>
+<script type="text/template" id="worker-end">
+
+}, false);
+</script>
+
+<script type="text/template" id="data">
+  {{{ data }}}
+</script>
+
+<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>

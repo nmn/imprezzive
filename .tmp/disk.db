@@ -1,0 +1,559 @@
+{
+  "data": {
+    "imprezzive": [
+      {
+        "id": 1,
+        "createdAt": "2014-04-01T19:27:57.928Z",
+        "updatedAt": "2014-04-01T19:27:57.928Z"
+      },
+      {
+        "id": 2,
+        "createdAt": "2014-04-01T19:27:59.570Z",
+        "updatedAt": "2014-04-01T19:27:59.570Z"
+      },
+      {
+        "createdAt": "2014-04-01T21:24:05.789Z",
+        "updatedAt": "2014-04-01T21:24:05.789Z",
+        "id": 18
+      },
+      {
+        "createdAt": "2014-04-01T21:24:12.194Z",
+        "updatedAt": "2014-04-01T21:24:12.194Z",
+        "id": 19
+      },
+      {
+        "createdAt": "2014-04-01T21:24:17.233Z",
+        "updatedAt": "2014-04-01T21:24:17.233Z",
+        "id": 20
+      },
+      {
+        "createdAt": "2014-04-01T21:26:25.563Z",
+        "updatedAt": "2014-04-01T21:26:25.563Z",
+        "id": 21
+      },
+      {
+        "createdAt": "2014-04-19T19:08:31.399Z",
+        "updatedAt": "2014-04-19T19:08:31.399Z",
+        "id": 22
+      }
+    ],
+    "slide": [
+      {
+        "prezId": 18,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:24:06.022Z",
+        "updatedAt": "2014-04-01T21:24:06.022Z",
+        "id": 12
+      },
+      {
+        "prezId": 19,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:24:12.420Z",
+        "updatedAt": "2014-04-01T21:24:12.420Z",
+        "id": 13
+      },
+      {
+        "prezId": 20,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:24:17.452Z",
+        "updatedAt": "2014-04-01T21:24:17.452Z",
+        "id": 14
+      },
+      {
+        "prezId": 21,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:26:25.800Z",
+        "updatedAt": "2014-04-01T21:26:25.800Z",
+        "id": 15
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:33:15.585Z",
+        "updatedAt": "2014-04-01T21:33:15.585Z",
+        "id": 16
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 0,
+        "slide": {
+          "className": "current",
+          "number": 0,
+          "Items": []
+        },
+        "createdAt": "2014-04-01T21:33:24.064Z",
+        "updatedAt": "2014-04-01T21:33:24.064Z",
+        "id": 17
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 1,
+        "createdAt": "2014-04-01T22:04:09.932Z",
+        "updatedAt": "2014-04-01T22:04:09.932Z",
+        "id": 18
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 2,
+        "createdAt": "2014-04-01T22:15:07.013Z",
+        "updatedAt": "2014-04-01T22:15:07.013Z",
+        "id": 19
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 3,
+        "createdAt": "2014-04-01T22:15:26.443Z",
+        "updatedAt": "2014-04-01T22:15:26.443Z",
+        "id": 20
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 4,
+        "createdAt": "2014-04-01T22:18:18.196Z",
+        "updatedAt": "2014-04-01T22:18:18.196Z",
+        "id": 21
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 5,
+        "createdAt": "2014-04-01T22:20:59.765Z",
+        "updatedAt": "2014-04-01T22:20:59.765Z",
+        "id": 22
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 6,
+        "createdAt": "2014-04-01T22:21:59.055Z",
+        "updatedAt": "2014-04-01T22:21:59.055Z",
+        "id": 23
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 7,
+        "createdAt": "2014-04-01T22:21:59.334Z",
+        "updatedAt": "2014-04-01T22:21:59.334Z",
+        "id": 24
+      },
+      {
+        "prezId": 2,
+        "slideNumber": 8,
+        "createdAt": "2014-04-02T01:03:52.766Z",
+        "updatedAt": "2014-04-02T01:03:52.766Z",
+        "id": 25
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 1,
+        "createdAt": "2014-04-02T01:38:36.426Z",
+        "updatedAt": "2014-04-02T01:38:36.426Z",
+        "id": 26
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 2,
+        "createdAt": "2014-04-02T01:41:51.423Z",
+        "updatedAt": "2014-04-02T01:41:51.423Z",
+        "id": 27
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 3,
+        "createdAt": "2014-04-02T01:45:24.975Z",
+        "updatedAt": "2014-04-02T01:45:24.975Z",
+        "id": 28
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 4,
+        "createdAt": "2014-04-02T01:46:38.052Z",
+        "updatedAt": "2014-04-02T01:46:38.052Z",
+        "id": 29
+      },
+      {
+        "prezId": 1,
+        "slideNumber": 5,
+        "createdAt": "2014-04-02T01:48:40.900Z",
+        "updatedAt": "2014-04-02T01:48:40.900Z",
+        "id": 30
+      },
+      {
+        "prezId": 22,
+        "slideNumber": 0,
+        "createdAt": "2014-04-19T19:14:46.256Z",
+        "updatedAt": "2014-04-19T19:14:46.256Z",
+        "id": 31
+      }
+    ],
+    "item": [
+      {
+        "type": "text",
+        "prezId": 2,
+        "slideId": 17,
+        "createdAt": "2014-04-01T23:42:58.980Z",
+        "updatedAt": "2014-04-02T01:28:57.947Z",
+        "id": 9,
+        "height": 128,
+        "width": 556,
+        "content": "But Why isn't it perfect?",
+        "top": 40,
+        "left": 20
+      },
+      {
+        "type": "para",
+        "prezId": 2,
+        "slideId": 17,
+        "createdAt": "2014-04-01T23:45:25.774Z",
+        "updatedAt": "2014-04-02T01:28:59.414Z",
+        "id": 10,
+        "height": 90,
+        "width": 242,
+        "top": 178,
+        "left": 122,
+        "content": "Works for stuff. Hope You can understand..."
+      },
+      {
+        "type": "code",
+        "prezId": 2,
+        "slideId": 17,
+        "top": 51,
+        "left": 699,
+        "height": "600px",
+        "width": "500px",
+        "createdAt": "2014-04-01T23:48:40.605Z",
+        "updatedAt": "2014-04-02T01:28:33.427Z",
+        "id": 12,
+        "content": "//Everything is Awesome!\n\n//This changes later.. SO this should win/"
+      },
+      {
+        "type": "image",
+        "url": "http://media.giphy.com/media/BFpvLys08YEUM/giphy.gif",
+        "prezId": 2,
+        "slideId": 17,
+        "createdAt": "2014-04-02T01:26:35.286Z",
+        "updatedAt": "2014-04-02T01:26:35.286Z",
+        "id": 15
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 16,
+        "createdAt": "2014-04-02T01:36:04.243Z",
+        "updatedAt": "2014-04-19T19:20:59.091Z",
+        "id": 21,
+        "height": 84,
+        "width": 513,
+        "content": "A new kind of presentation software.\nBecause you don't always know what you want...",
+        "top": 425,
+        "left": 349
+      },
+      {
+        "type": "text",
+        "prezId": 1,
+        "slideId": 26,
+        "createdAt": "2014-04-02T01:38:46.174Z",
+        "updatedAt": "2014-04-19T19:20:59.107Z",
+        "id": 22,
+        "height": 125,
+        "width": 592,
+        "content": "Use the (h1) Icon to add Headings.",
+        "top": 151,
+        "left": 327
+      },
+      {
+        "type": "code",
+        "prezId": 1,
+        "slideId": 27,
+        "top": 44,
+        "left": 57,
+        "height": "600px",
+        "width": "500px",
+        "createdAt": "2014-04-02T01:41:59.294Z",
+        "updatedAt": "2014-04-19T19:15:28.821Z",
+        "id": 25,
+        "content": "// Two Editors Are better. For Comparison\n\nvar nthFibonacci = function(n) {\n    var zero = 0,\n        oneDown = 1,\n        twoDown = 1;\n    var sum = 0,\n        temp;\n    switch (n) {\n        case 0:\n            return 0;\n        case 1:\n            return 1;\n        case 2:\n            return 1;\n    }\n\n    for (var i = 3; i <= n; i++) {\n        temp = oneDown + twoDown;\n        sum = temp;\n        twoDown = oneDown;\n        oneDown = temp;\n    }\n    return sum;\n};\n\nfor(var i = 10; i < 51; i++){\n    console.log(i, 'th fibbonacci is ', nthFibonacci(i));\n}\n"
+      },
+      {
+        "type": "text",
+        "prezId": 1,
+        "slideId": 29,
+        "createdAt": "2014-04-02T01:46:39.942Z",
+        "updatedAt": "2014-04-19T19:26:58.109Z",
+        "id": 28,
+        "height": 184,
+        "width": 857,
+        "content": "Try opening the same presentation in another browser",
+        "top": 103,
+        "left": 193
+      },
+      {
+        "type": "code",
+        "prezId": 1,
+        "slideId": 28,
+        "top": 40,
+        "left": 34,
+        "height": "600px",
+        "width": "500px",
+        "createdAt": "2014-04-02T01:48:02.566Z",
+        "updatedAt": "2014-04-19T19:28:29.629Z",
+        "id": 29,
+        "content": "//Multiple Code Editors FTW\n\n// For Awesome comparisons!"
+      },
+      {
+        "type": "text",
+        "prezId": 1,
+        "slideId": 30,
+        "createdAt": "2014-04-02T01:48:42.570Z",
+        "updatedAt": "2014-04-19T19:28:27.133Z",
+        "id": 30,
+        "height": 405,
+        "width": 626,
+        "content": "It works.\nSorta..\n\nImprezzive is definitely still in alpha\n\nUse at your own risk",
+        "top": 113,
+        "left": 308
+      },
+      {
+        "type": "image",
+        "url": "http://media3.giphy.com/media/fbXyEHrV6n2Kc/giphy.gif",
+        "prezId": 1,
+        "slideId": 16,
+        "createdAt": "2014-04-02T15:47:08.898Z",
+        "updatedAt": "2014-04-19T19:20:59.089Z",
+        "id": 35,
+        "top": 40,
+        "left": 354
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 16,
+        "createdAt": "2014-04-19T19:16:30.058Z",
+        "updatedAt": "2014-04-19T19:28:27.125Z",
+        "id": 36,
+        "height": 36,
+        "width": 204,
+        "top": 510,
+        "left": 498,
+        "content": "And Typos Suck!"
+      },
+      {
+        "type": "text",
+        "prezId": 1,
+        "slideId": 16,
+        "createdAt": "2014-04-19T19:17:26.421Z",
+        "updatedAt": "2014-04-19T19:20:59.090Z",
+        "id": 37,
+        "height": 108,
+        "width": 592,
+        "top": 347,
+        "left": 301,
+        "content": "Imprezzive.js"
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 16,
+        "createdAt": "2014-04-19T19:18:13.528Z",
+        "updatedAt": "2014-04-19T19:28:27.128Z",
+        "id": 38,
+        "height": 44,
+        "width": 212,
+        "top": 599,
+        "left": 499,
+        "content": "Hit the next array in the bottom right to continue..."
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 26,
+        "createdAt": "2014-04-19T19:20:32.086Z",
+        "updatedAt": "2014-04-19T19:21:05.160Z",
+        "id": 39,
+        "height": 44,
+        "width": 371,
+        "top": 296,
+        "left": 438,
+        "content": "and (p) icon to add smaller text"
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 26,
+        "createdAt": "2014-04-19T19:21:34.300Z",
+        "updatedAt": "2014-04-19T19:22:03.079Z",
+        "id": 40,
+        "height": 91,
+        "width": 310,
+        "top": 540,
+        "left": 485,
+        "content": "^ the dots over on the top-left of the blocks let you drag stuff around"
+      },
+      {
+        "type": "text",
+        "prezId": 1,
+        "slideId": 27,
+        "createdAt": "2014-04-19T19:22:15.273Z",
+        "updatedAt": "2014-04-19T19:23:13.019Z",
+        "id": 41,
+        "height": 112,
+        "width": 596,
+        "top": 47,
+        "left": 612,
+        "content": "Editiable Code Editors In your slides"
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 27,
+        "createdAt": "2014-04-19T19:22:50.304Z",
+        "updatedAt": "2014-04-19T19:24:02.617Z",
+        "id": 42,
+        "height": 70,
+        "width": 234,
+        "top": 207,
+        "left": 800,
+        "content": "For everytime someone asks, what if the code said..."
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 27,
+        "createdAt": "2014-04-19T19:23:34.346Z",
+        "updatedAt": "2014-04-19T19:26:58.101Z",
+        "id": 43,
+        "height": 44,
+        "width": 354,
+        "top": 442,
+        "left": 563,
+        "content": "Hit the ‘Run Code’ Button to safely run the code in a Web Worker"
+      },
+      {
+        "type": "code",
+        "prezId": 1,
+        "slideId": 28,
+        "top": 40,
+        "left": 635,
+        "height": "600px",
+        "width": "500px",
+        "createdAt": "2014-04-19T19:25:17.334Z",
+        "updatedAt": "2014-04-19T19:26:58.105Z",
+        "id": 44,
+        "content": "//Multiple Code Editors FTW\n\n// For Awesome comparisons!"
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 29,
+        "createdAt": "2014-04-19T19:26:37.066Z",
+        "updatedAt": "2014-04-19T19:26:58.111Z",
+        "id": 45,
+        "height": 48,
+        "width": 775,
+        "top": 261,
+        "left": 243,
+        "content": "You can probably see the edits from there update here live"
+      },
+      {
+        "type": "para",
+        "prezId": 1,
+        "slideId": 30,
+        "createdAt": "2014-04-19T19:28:07.912Z",
+        "updatedAt": "2014-04-19T19:28:27.136Z",
+        "id": 46,
+        "height": 48,
+        "width": 216,
+        "top": 567,
+        "left": 538,
+        "content": "Contact me on:\nnaman34@gmail.com"
+      }
+    ]
+  },
+  "schema": {
+    "imprezzive": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    },
+    "slide": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    },
+    "item": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    }
+  },
+  "counters": {
+    "imprezzive": {
+      "id": 22
+    },
+    "slide": {
+      "id": 31
+    },
+    "item": {
+      "id": 46
+    }
+  }
+}
