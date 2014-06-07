@@ -6,6 +6,18 @@ Imprezzive tries to fill that hole. Built during a hackathon, Imprezzive current
 
 Using Sails.js and Socket.io, the entire Backbone app is made for real-time collaboration.
 
+### Main Screen (Manager for many presentations)
+
+![Imprezzive Main Screen](http://naman.s3.amazonaws.com/imprezzive/mainScreen.png)
+
+### Ace Editors 
+
+![Imprezzive Ace Editors](http://naman.s3.amazonaws.com/imprezzive/code_editors.png)
+
+### Basic Usage
+
+![Imprezzive Basic Usage](http://naman.s3.amazonaws.com/imprezzive/imprezzive.gif)
+
 ### Bugs
 
 Imprezzive has a few bugs at the moment and isn't quite ready for prime-time. It's still a great choice for downloading and running locally on your own computer.
